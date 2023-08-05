@@ -11,7 +11,7 @@
     overflow-y: scroll;
     height: 80vh;
     z-index: 8;
-   
+   padding: 0px 15px;
 }
 .bottomTech{
     position: absolute;

@@ -34,11 +34,11 @@ function Home() {
   return (
     <>
 <Header currentPage={currentPage} handleSectionClick={handleSectionClick}  />
-
+        
    
     <div onWheel={handleWheel}>
       <Parallax pages={4} style={{ top: '0', left: '0' }} ref={parallaxRef} config={{ clamp: false }}>
-        <ParallaxLayer offset={0} speed={1} onClick={() => handleSectionClick(1)} id='FirstSection'>
+        <ParallaxLayer offset={0} speed={0.1} onClick={() => handleSectionClick(1)} id='FirstSection'>
           <div className='animation_layer1' id='id1'>
             <div className='aninamtionTopCorner'></div>
             <div className='aninamtionBottomCorner'></div>
@@ -50,18 +50,18 @@ function Home() {
           {/* <div className='imageEtoro'></div> */}
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.3} id='about'>
-          <div className='animation_layer parallax' id='id2'>
+        <ParallaxLayer offset={1} speed={0.1}>
+          <div className='animation_layer parallax' id='about'>
             <Services />
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.2} id='workExp'>
-          <div className='animation_layer parallax' id='id3'>
+        <ParallaxLayer offset={2} speed={0.1} >
+          <div className='animation_layer parallax' id='workExp'>
            <Experience />
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={3} speed={0.2} id='projects'>
-          <div className='animation_layer parallax' id='id4'>
+        <ParallaxLayer offset={3} speed={0.1} >
+          <div className='animation_layer parallax' id='projects'>
             <Technologies />
           </div>
         </ParallaxLayer>
