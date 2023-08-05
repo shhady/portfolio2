@@ -10,13 +10,13 @@ export default function Experience() {
       <div className='aninamtionTopCornerExp'></div>
       <div className='content'>
         <h2>Work Experience</h2>
-        <div>
+        <div style={{width:"90%", margin:"auto"}}>
           {page === 1 ? (
-            <div className='arrow' onClick={() => setPage(2)}>
+            <div className='arrowExp' onClick={() => setPage(2)}>
               <FaArrowRight />more
             </div>
           ) : (
-            <div className='arrow' onClick={() => setPage(1)}>
+            <div className='arrowExp' onClick={() => setPage(1)}>
               <FaArrowLeft />back
             </div>
           )}
