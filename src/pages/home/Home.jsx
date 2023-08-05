@@ -50,17 +50,17 @@ function Home() {
           {/* <div className='imageEtoro'></div> */}
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.1}>
+        <ParallaxLayer offset={1} speed={0.2}>
           <div className='animation_layer parallax' id='about'>
             <Services />
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.1} >
+        <ParallaxLayer offset={2} speed={0.2} >
           <div className='animation_layer parallax' id='workExp'>
            <Experience />
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={3} speed={0.1} >
+        <ParallaxLayer offset={3} speed={0.2} >
           <div className='animation_layer parallax' id='projects'>
             <Technologies />
           </div>
