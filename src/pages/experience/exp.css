@@ -1,7 +1,7 @@
 .experience{
     padding: 80px 10px 0px 10px;
     background-color: rgb(255, 255, 255);
-    height: 100vh;
+    height: calc(100vh - 115px);
     color: black;
     
 }
