@@ -3,13 +3,11 @@
     background-color: rgb(255, 255, 255);
     height: calc(100vh - 115px);
     color: black;
-    
+    margin: auto;
 }
 
 .exp3{
     animation: slideInFromRight 0.5s ease-in-out;
-    
-
 }
 .exp12 {
     animation: slideInFromLeft 0.5s ease-in-out;
@@ -53,6 +51,10 @@
 .content{
     position: absolute;
     z-index: 8;
+    width: 100%;
+}
+.titleButton{
+    width: 84%;
 }
 @keyframes slideInFromRight {
     0% {
