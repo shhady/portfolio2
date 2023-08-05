@@ -1,0 +1,107 @@
+.services-section{
+    padding: 50px 10px 0px 10px;
+    background-color: rgb(20, 20, 20);
+    color: black;
+    min-height: 100vh;
+    color: white;
+    position: relative;
+    z-index: 5;
+
+}
+.service-container{
+    z-index: 9;
+    position: absolute;
+
+}
+.bottomServices{
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+     border-top-right-radius: 100%;
+     bottom: 0;
+     left: 0;
+     width: 50%;
+     height: 40%;
+     z-index: 3;
+}
+.servicesTop{
+    position: absolute;
+    background-image: url('../../assets/backBlack.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 80;
+    right: 0;
+    border-bottom-left-radius: 100%;
+    height: 150px;
+    width: 200px;
+    z-index: 2;
+}
+.contentSer{
+    position: absolute;
+    z-index: 5;
+    width: 90%;
+    margin: auto;
+}
+.arrowsServices{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow{
+    border: 1px solid rgb(206, 202, 202);
+    padding: 5px 20px;
+    /* margin-top: 25px; */
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    width: 90%;
+    margin: auto;
+}
+
+/* Animation for entering from the left */
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Animation for entering from the right */
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Animation for entering from the left for services3 */
+  @keyframes slideInFromLeftServices3 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply animations to the services */
+  .service-column {
+    animation: slideInFromLeft 0.5s ease-in-out;
+  }
+  
+  .service-column-right {
+    animation: slideInFromRight 0.5s ease-in-out;
+  }
+  
+  .service-column-left {
+    animation: slideInFromLeftServices3 0.5s ease-in-out;
+  }
+  

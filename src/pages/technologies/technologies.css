@@ -1,0 +1,25 @@
+
+.technologies-container{
+    margin-top: 70px;
+    padding: 0px 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.technologies-list{
+    position: relative;
+    overflow-y: scroll;
+    height: 80vh;
+    z-index: 8;
+   
+}
+.bottomTech{
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+     border-top-right-radius: 100%;
+     bottom: 0;
+     left: 0;
+     width: 50%;
+     height: 40%;
+     z-index: 3;
+}
