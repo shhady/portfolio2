@@ -60,11 +60,11 @@ const technologiesData = [
     icon: <TbBrandSocketIo />,
     explanation: 'Library for real-time, bidirectional communication between web clients and servers.',
   },
-  {
-    title: 'Postman',
-    icon: <SiPostman />,
-    explanation: 'API testing and documentation tool for web developers.',
-  }, 
+//   {
+//     title: 'Postman',
+//     icon: <SiPostman />,
+//     explanation: 'API testing and documentation tool for web developers.',
+//   }, 
    
 ];
 
