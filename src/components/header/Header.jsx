@@ -17,7 +17,7 @@ function Header({ currentPage, handleSectionClick }) {
       <div className="header">
         <div className="header-content">
           <h3>Shhady  Serhan</h3>
-          <FaBars className="menu-icon" onClick={toggleMenu} />
+         {!showMenu ? (<FaBars className="menu-icon" onClick={toggleMenu} />):(<div onClick={toggleMenu}>X</div>)} 
         {showMenu &&   <div className="menu" style={menuAnimation}>
             <div onClick={() => {handleSectionClick(0); setShowMenu(false)}}>Home</div>
             <div onClick={() => {handleSectionClick(1); setShowMenu(false)}}>Services</div>

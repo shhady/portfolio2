@@ -1,15 +1,16 @@
 
 .technologies-container{
-    margin-top: 70px;
-    padding: 0px 20px;
-    position: relative;
+    
+    padding: 70px 20px;
+    /* position: relative; */
     margin-bottom: 50px;
-    height: calc(100vh - 115px);
+    height: 100vh;
 }
 
 .technologies-list{
     position: relative;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    min-width: 85vw;
     height: 80vh;
     z-index: 8;
    padding: 0px 15px;
