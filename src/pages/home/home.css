@@ -22,7 +22,7 @@
     right: 0;
     z-index: 3;
 }
-.aninamtionBottomCorner{
+/* .aninamtionBottomCorner{
     position: absolute;
    background-image: url('../../assets/ett.png');
    background-position: bottom center;
@@ -34,7 +34,7 @@
     width: 70%;
     height: 40%;
     z-index: 5;
-}
+} */
 .shadowPic{
     position: absolute;
     width: 53%;

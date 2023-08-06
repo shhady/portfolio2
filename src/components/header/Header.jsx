@@ -19,6 +19,11 @@ function Header({ currentPage, handleSectionClick }) {
           <h3>Shhady  Serhan</h3>
          {!showMenu ? (<FaBars className="menu-icon" onClick={toggleMenu} />):(<div onClick={toggleMenu}>X</div>)} 
         {showMenu &&   <div className="menu" style={menuAnimation}>
+            <div style={{display:"flex", justifyContent:"flex-end", alignItems:'center', width:'90%'}}>
+        {/* <h3>Shhady  Serhan</h3> */}
+        <div onClick={toggleMenu}>X</div>
+        </div>
+         
             <div onClick={() => {handleSectionClick(0); setShowMenu(false)}}>Home</div>
             <div onClick={() => {handleSectionClick(1); setShowMenu(false)}}>Services</div>
             <div onClick={() =>{ handleSectionClick(2); setShowMenu(false)}}>Work Experience</div>
