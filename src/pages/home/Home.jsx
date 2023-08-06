@@ -41,10 +41,7 @@ function Home() {
         <ParallaxLayer offset={0} speed={0.1} onClick={() => handleSectionClick(1)} id='FirstSection'>
           <div className='animation_layer1' id='id1'>
             <div className='aninamtionTopCorner'></div>
-            <div className='aninamtionBottomCorner'>
-               
-            </div>
-            <div className='shadowPic'></div>
+            <div className='aninamtionBottomCorner'></div>
             {/* <Header currentPage={currentPage} handleSectionClick={handleSectionClick} /> */}
             <div className='jobFirstLayer'>
           <h2>Full Stack <br/> Web Developer</h2>

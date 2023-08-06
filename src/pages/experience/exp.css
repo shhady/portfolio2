@@ -16,12 +16,12 @@
 
 .aninamtionBottomCornerExp{
     position: absolute;
-   background-color: rgba(0, 0, 0,.1);
-    /* border-top-right-radius: 100%; */
+   background-color: rgb(209, 212, 212);
+    border-top-right-radius: 100%;
     bottom: 0;
     left: 0;
     width: 50%;
-    height: 100%;
+    height: 40%;
     z-index: 3;
 }
 .arrowExp{
@@ -51,7 +51,7 @@
 .content{
     position: absolute;
     z-index: 8;
-    width: 95%;
+    width: 90%;
 }
 .titleButton{
     width: 84%;

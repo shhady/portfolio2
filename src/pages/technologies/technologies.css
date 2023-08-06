@@ -1,39 +1,27 @@
 
 .technologies-container{
-    /* padding: 70px 20px; */
-    position: relative;
+    
+    padding: 70px 20px;
+    /* position: relative; */
     margin-bottom: 50px;
     height: 100vh;
 }
 
 .technologies-list{
-    /* position: relative; */
+    position: relative;
     /* overflow-y: scroll; */
-    /* min-width: 85vw; */
-    /* height: 80vh; */
+    min-width: 85vw;
+    height: 80vh;
     z-index: 8;
-   padding: 70px 15px;
+   padding: 0px 15px;
 }
 .bottomTech{
     position: absolute;
-    background-color: rgb(44, 44, 44,0.4);
-     /* border-top-right-radius: 100%;
-     bottom: 0; */
-     right: 0;
+    background-color: rgb(44, 44, 44);
+     border-top-right-radius: 100%;
+     bottom: 0;
+     left: 0;
      width: 50%;
-     height: 100%;
+     height: 40%;
      z-index: 3;
-}
-.TechsTop{
-    position: absolute;
-    background-image: url('../../assets/backBlack.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top:50px;
-    left: 0;
-    border-bottom-right-radius: 100%;
-    height: 150px;
-    width: 200px;
-    z-index: 2;
 }
