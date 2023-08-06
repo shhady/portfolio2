@@ -11,8 +11,9 @@ export default function Services() {
   return (
     <section id="services" className="services-section">
         <div className='servicesTop'></div>
-    <h2>Services I Offer</h2>
     <div className='contentSer'>
+    <h2>Services I Offer</h2>
+
     <div className='arrowsServices'>
    {services === 3 && <div className='arrow'  onClick={()=> setServices(2)}> <FaArrowLeft/>back</div>} 
     {services === 1 && <div className='arrow'  onClick={()=> setServices(2)}> more <FaArrowRight/></div>}

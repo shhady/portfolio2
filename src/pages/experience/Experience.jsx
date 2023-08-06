@@ -14,11 +14,11 @@ export default function Experience() {
         <div>
           {page === 1 ? (
             <div className='arrowExp' onClick={() => setPage(2)}>
-              <FaArrowRight />more
+              more <FaArrowRight />
             </div>
           ) : (
             <div className='arrowExp' onClick={() => setPage(1)}>
-              <FaArrowLeft />back
+              <FaArrowLeft /> back
             </div>
           )}
         </div>

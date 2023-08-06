@@ -81,10 +81,11 @@ function Technologies() {
 
   return (
     <div className="technologies-container">
-        <div className='servicesTop'></div>
-        <div style={{position:"absolute", zIndex:"9", marginTop:"-25px"}}>
-      <h2>Full Stack Expertise</h2>
+        <div className='TechsTop'></div>
+        <div style={{position:"absolute", zIndex:"9"}}>
+     
       <div className="technologies-list">
+      <h2>Full Stack Expertise</h2>
         {technologiesData.map((tech, index) => (
           <div
             key={index}
@@ -100,9 +101,8 @@ function Technologies() {
           </div>
         ))}
       </div>
-      <div className='bottomTech'></div>
-
       </div>
+      <div className='bottomTech'></div>
     </div>
   );
 }
